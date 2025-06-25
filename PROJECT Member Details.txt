@@ -1,0 +1,50 @@
+Project Group ID- MLB_WD_07.02_04
+Batch NO -   MLB_WD_07.02
+Topic-  Online Bill And Event Reminder
+Project link - https://mysliit-my.sharepoint.com/:f:/g/personal/it23709584_my_sliit_lk/EpQkWHkOwRRInFMOAo5nRZkBq6TftLlQs3rNNJnmeTb_4g?e=bdclY0
+
+
+
+GROUP MEMBER DETAILS
+
+Member 1
+Member Id - IT 23768062
+Member name-W.G.J.R.Costa
+Contact no - it23 
+Email address - it23768062@my.sliit.lk
+Implemented Functions- Home page, Admin Dashboard, Billing CRUD
+
+
+Member 2
+Member Id - IT 23437470
+Member name - Dissanayake D.M.S.S
+Contact no - 0714806554 
+Email address -it23437470@my.sliit.lk
+Implemented Functions- Offers Page, Event Reminder Page, Payment Page, Event Booking CRUD
+
+
+Member 3
+Member Id - IT 23709584
+Member name - Prabhasha J.M.D.K
+Contact no - 0717563293
+Email address -IT23709584@my.sliit.lk
+Implemented Functions- Gourment Restaurant  ,Royal Café ,Bar & Lounge, Dinning Overview, Room Booking CRUD
+
+Member 4
+Member Id -  IT 23676374
+Member name - W M G R BANDARA
+Contact no - 0771042020 
+Email address -it23676374@my.sliit.lk
+Implemented Functions- User Dashboard, Login CRUD
+
+Member 5
+Member Id - IT23679344
+Member name - M.A.D. Malsha
+Contact no -  0715838561
+Email address -it23679344@my.sliit.lk
+Implemented Functions-FAQ, Feedback CRUD
+
+
+
+
+

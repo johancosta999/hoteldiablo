@@ -1,0 +1,199 @@
+/* General Styling */
+body {
+    background-color: #333333;
+    color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C2C2C;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #6A0DAD;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #B57EDC;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: #2C2C2C;
+    margin: 20px 0;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(165, 30, 109, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+/* Dining Cards */
+.dining-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #342f34;
+    border: 1px solid #6A0DAD;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.see-more {
+    padding: 10px 20px;
+    background-color: #6A0DAD;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.see-more:hover {
+    background-color: #B57EDC;
+}
+
+/* Footer */
+footer {
+    width:100%;
+    position: absolute;
+    bottom: auto;
+    background: rgb(129, 127, 127);
+    color: black;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.row1{
+    width:85%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+}
+.col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+.col1 h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+
+ ul li a{
+    text-decoration: none;
+    color:black;
+}

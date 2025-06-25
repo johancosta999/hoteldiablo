@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e4e9f7;
+    background-image: url("event.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.box {
+    background:white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1), 0 32px 64px -48px rgba(0,0,0,0.5);
+
+}
+
+.box {
+        background: transparent; 
+        padding: 0; 
+        box-shadow: none; 
+        border-radius: 0; 
+}
+    
+
+.form-box {
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.form-box form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.btn {
+    height: 35px;
+    background: rgba(76, 68, 182, 0.888);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+
+
+.btn2 {
+    height: 35px;
+    background: grey;
+    border: 0;
+    border-radius: 5px;
+    color:black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn2:hover {
+    opacity: 0.82;
+}
+
+.btn3 {
+    height: 35px;
+    background: rgb(91, 233, 43);
+    border: 0;
+    border-radius: 5px;
+    color:black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn3:hover {
+    opacity: 0.82;
+}
+
+
+.message {
+    text-align: center;
+    background: #f9eded;
+    padding: 15px;
+    border: 1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-box {
+    padding: 20px;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details-table {
+    height: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.details-table th,body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-box {
+    padding: 20px;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.details-table th,
+.details-table td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.details-table th {
+    background-color: #f2f2f2;
+}
+
+.details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn1 {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+}
+
+.details-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.details-table th {
+    background-color: #f2f2f2;
+}
+
+.details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn1 {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 15px; 
+    justify-content: center; 
+    margin-top: 20px; 
+}

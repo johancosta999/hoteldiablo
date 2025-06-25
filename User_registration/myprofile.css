@@ -1,0 +1,269 @@
+/*
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+*/
+/*
+.navbar {
+    background-color: #4a90e2;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-brand {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+} */
+
+/* Container */
+
+:root{
+    --main-color: #f4eeee;
+    --bg: #202020;
+    --border: .1rem solid rgba(116, 26, 144, 0.3);
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body{
+    background: var(--bg);
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo img{
+    height: 10rem;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.icons img {
+    width: 20px; 
+    height: 20px; 
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-left: 2rem; 
+}
+
+
+.dropdown {
+    position: relative; 
+    display: inline-block; 
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute; 
+    width: 300px;
+    top: 100%; 
+    left: 0; 
+    background-color: #201f1f; 
+    padding: 10px;
+    font-size: 14px;
+    list-style: none;
+    z-index: 999;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px; 
+    color: white; 
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: none; 
+    color: #59148a; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; 
+}
+
+
+.navbar a, .dropdown > a {
+    margin: 0 1rem; 
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.icons img:hover{
+    color: purple;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 25rem;
+}
+
+.search-bar input {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 100px; 
+    transition: width 0.4s ease-in-out;
+}
+
+
+.search-bar input:focus {
+    width: 300px; 
+}
+
+
+.search-bar input {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #000000;
+}
+
+
+.search-bar input:focus {
+    border-color: var(--main-color);
+}
+
+.search-bar input::placeholder {
+    color: #999; 
+    font-size: 1.2rem;
+    font-style: italic;
+    opacity: 1;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.profile-card h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #333;
+}
+
+.profile-card .lead {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.profile-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+}
+
+.btn-edit:hover {
+    background-color: #357ABD;
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
+}
+
+section{
+    padding-top: 200px;
+}

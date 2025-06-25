@@ -1,0 +1,80 @@
+/* edit_profile.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #357abd;
+}
+
+.btn-secondary {
+    background-color: #7f8c8d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6a6d;
+}
+
+.invalid-feedback {
+    color: #e3342f;
+    display: none;
+}
+
+.was-validated .form-control:invalid + .invalid-feedback {
+    display: block;
+}

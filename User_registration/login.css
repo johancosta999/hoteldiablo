@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color:  #f4f4f4;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center; 
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.login-btn {
+    background-color: #2C2C2C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: rgb(124, 70, 124);
+    color: black;
+}
+
+.admin-link {
+    margin: 20px 0;
+}
+
+.admin-link a {
+    text-decoration: underline;
+    color: #333;
+    font-size: 16px;
+}
+
+.admin-link a:hover {
+    color: purple;
+}
+
+.or-divider {
+    position: relative;
+    margin: 25px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.or-divider span {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.or-divider:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ddd;
+    z-index: -1;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.social-login a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.social-login img {
+    width: 50%;
+    height: 50%;
+}
+
+.signup-link {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

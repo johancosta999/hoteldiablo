@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Limit the width of the form */
+    margin: auto; /* Center the form */
+}
+
+label {
+    margin: 10px 0 5px; /* Space out labels */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    padding: 10px; /* Add some padding for better UX */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between inputs */
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #6a0dad; /* Purple theme */
+    color: white; /* Text color */
+    padding: 10px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #5b0da8; /* Darker purple on hover */
+}
+
+/* Back button styles */
+.back-btn {
+    display: inline-block; /* Make it behave like a button */
+    background-color: #000000; /* Purple theme */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.back-btn:hover {
+    background-color: #2c0933; /* Darker purple on hover */
+}
+
+
+select {
+    width: 91%; 
+    padding: 10px; 
+    margin: 8px 0; 
+    border: 1px solid #6a5acd; 
+    border-radius: 5px;
+    font-size: 16px; /* Font size */
+    background-color: #f3e5f5; 
+    color: #4b0082; 
+    cursor: pointer; 
+}
+
+select:focus {
+    border-color: #8a2be2; 
+    outline: none; 
+    background-color: #ffffff;
+
+}
+
+select option {
+    padding: 10px; 
+    background-color: #f3e5f5; 
+    color: #523468; 
+}
+
+:root{
+    --main-color: #f4eeee;
+    --bg: #202020;
+    --border: .1rem solid rgba(116, 26, 144, 0.3);
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+.header {
+    background: var(--bg); 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px; 
+    border-bottom: var(--border);
+    border-width: 3px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1000;
+    height: 120px; 
+}
+
+.header .logo img {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 20px;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    margin: 0; 
+    text-align: center; 
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+}*/
+
+section{
+    padding-top: 120px;
+}

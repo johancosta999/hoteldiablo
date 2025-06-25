@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; /* Light grey background color */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Adjust alignment */
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Make the body column-oriented */
+    flex-direction: column;
+    position: relative; /* Enable positioning for pseudo-element */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 20px; /* Add padding around the page */
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Control the maximum width */
+    margin: 0 auto;
+    position: relative; /* Enable positioning for the container */
+    z-index: 1; /* Ensure the form is above the background */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 1); /* Slightly transparent white background for form */
+    padding: 70px;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color:  #654180;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #59148a;
+}
+
+/* Carousel styles */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden; /* Hide overflow */
+    width: 100%;
+}
+
+.carousel img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+.carousel-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px; /* Space between buttons and carousel */
+}
+
+.carousel-button:hover {
+    background-color: #218838;
+}
+
+.form-title {
+    text-align: center; /* Center the title */
+    font-size: 1.75em; /* Increase the font size */
+    color: #333; /* Dark gray color for the text */
+    margin-bottom: 20px; /* Space below the title */
+    font-weight: bold; /* Make the title bold */
+}
+
+#roomImage {
+    width: 100px; /* Set the width to a very small size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Add margin for spacing */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    display: none; /* Initially hide the image */
+}
+
+/* Pseudo-element for background image */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image/kav.jpg'); /* Change this to your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    opacity: 0.3; /* Set the desired opacity */
+    z-index: 0; /* Place behind other content */
+}
+
+/* Styling the table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between table cells */
+    margin-bottom: 20px; /* Add space below the table */
+}
+
+table thead {
+    background-color: #f2f2f2; /* Light gray background for the header */
+}
+
+table th, table td {
+    padding: 15px; /* Add padding for table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid black; /* Add border between rows */
+}
+
+table th {
+    font-weight: bold; /* Make header text bold */
+    color: #333; /* Dark text color for the header */
+}
+
+table tbody tr:hover {
+    background-color: #f9f9f9; /* Add a hover effect to rows */
+}
+
+/* Style for the action buttons */
+button {
+    padding: 8px 12px; /* Add padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin: 0 5px; /* Space between buttons */
+}
+
+button.edit {
+    background-color: #007bff; /* Blue background for the edit button */
+    width: 80px;
+}
+
+button.edit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button.delete {
+    background-color: #dc3545; /* Red background for the delete button */
+    width: 130px;
+}
+
+button.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Ensure horizontal alignment of buttons */
+td .button-container {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 10px; /* Add spacing between buttons */
+}

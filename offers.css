@@ -1,0 +1,278 @@
+ /* General styles */
+ body {
+        
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #f4eeee;
+    --bg: #202020;
+    --border: .1rem solid rgba(116, 26, 144, 0.3);
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .1s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+/*
+body{
+    background: var(--bg);
+}*/
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo img{
+    height: 10rem;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.icons img {
+    width: 20px; 
+    height: 20px; 
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-left: 2rem; 
+}
+
+/* Dropdown menu styling */
+.dropdown {
+    position: relative; /* Allows dropdown-menu to be positioned relative to this */
+    display: inline-block; /* Ensures the dropdown stays inline with other nav items */
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute; 
+    width: 300px;
+    top: 100%; 
+    left: 0; 
+    background-color: #201f1f; 
+    padding: 10px;
+    font-size: 14px;
+    list-style: none;
+    z-index: 999;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px; /* Padding inside each item */
+    color: white; /* White text */
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: none; /* Hover effect */
+    color: #59148a; /* Pearl white text on hover */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* Shows the dropdown when hovered */
+}
+
+/* Ensure navbar links remain aligned */
+.navbar a, .dropdown > a {
+    margin: 0 1rem; /* Keeps spacing consistent for all links */
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--main-color); /* Hover effect */
+}
+
+.icons img:hover{
+    color: purple;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 25rem;
+}
+
+.search-bar input {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 100px; /* Set a fixed width */
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field is focused, it expands */
+.search-bar input:focus {
+    width: 300px; /* Expanded width on focus */
+}
+
+/* Optional: Add a subtle border and background color */
+.search-bar input {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #000000;
+}
+
+/* Change border color on focus */
+.search-bar input:focus {
+    border-color: var(--main-color);
+}
+
+.search-bar input::placeholder {
+    color: #999; 
+    font-size: 1.2rem;
+    font-style: italic;
+    opacity: 1;
+}
+
+.more-info{
+    font-size: 30px;
+}
+
+/* Main content */
+.offers-section {
+    padding: 20px;
+    padding-top: 150px;
+   background: #333;
+}
+
+.offers-section h2 {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offer-categories {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    border-color: 1px solid #161414;
+}
+
+.category {
+    text-align: center;
+    width: 45%;
+    border: 20px solid #333333;
+    padding: 20px;
+    background: #847389;
+    
+}
+
+.category img {
+    width: 90%;
+    height: 400px;
+    background-color: #eee;
+}
+
+.category button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #3f1260; /* Royal Purple */
+    color: #F5F5F5; /* Pearl White */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #75548d; /* Lavender Hover */
+    color: #000000;
+}
+
+footer {
+width:100%;
+position: absolute;
+bottom: auto;
+background: grey;
+color: black;
+padding: 100px 0 30px;
+border-top-left-radius: 125px;
+font-size: 13px;
+line-height: 15px;
+}
+
+.row{
+width:85%;
+margin:auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+
+
+}
+.col{
+flex-basis: 25%;
+padding: 10px;
+}
+
+.logo{
+width: 80px;
+margin-bottom: 30px;
+
+}
+.col h3{
+width: fit-content;
+margin-bottom: 40px;
+position: relative;
+}
+
+
+ul li{
+list-style: none;
+margin-bottom: 12px;
+
+}
+
+ul li a{
+text-decoration: none;
+color:black;
+}

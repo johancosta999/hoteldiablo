@@ -1,0 +1,144 @@
+
+:root{
+    --main-color: #f4eeee;
+    --bg: #202020;
+    --border: .1rem solid rgba(116, 26, 144, 0.3);
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+.header {
+    background: var(--bg); 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px; 
+    border-bottom: var(--border);
+    border-width: 3px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1000;
+    height: 120px; 
+}
+
+
+.header .logo img {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 20px;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    margin: 0; 
+    text-align: center; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+}
+
+.add-btn:hover {
+    background-color: #8a2be2; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+.view-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.update-btn {
+    background-color: #2196F3;
+    color: white;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+.add-btn {
+    background-color: #a472cf; 
+    color: white;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+section{
+    padding-top: 120px;
+}
+
+.btn-back{
+    
+    margin-top: 20px;
+    background: #202020;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-back:hover{
+    background: #9f2fa9;
+    color: #000000;
+
+}
